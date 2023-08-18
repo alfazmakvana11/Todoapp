@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <!-- Container for the whole page -->
+    <div class="container"></div>
+    
+    <!-- Main To-Do App section -->
+    <div class="todo-app">
+        <!-- Heading -->
+        <h2>To-Do List</h2>
+        
+        <!-- Input and Add Button Row -->
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add Your To Do List">
+            <button onclick="addTask()">Add</button>
+        </div>
+        
+        <!-- List of To-Do Items -->
+        <ul id="list-container">
+            <!-- List items will be added dynamically here -->
+        </ul>
+        
+        <!-- Total Tasks Display -->
+        <div class="total-tasks">Total Tasks: <span id="task-count">0</span></div>
+    </div>
+    
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
